@@ -1,0 +1,72 @@
+.films{
+    color: aliceblue;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Films.css */
+/* Films.css */
+.film-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+   
+  }
+  
+  .film-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
+    background-color: rgb(179, 225, 225);
+    transition: transform 0.3s ease-in-out;
+  }
+  .film-item:hover{
+    transform: scale(1.04);
+  }
+  
+  .film-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .film-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .filmTitle{
+    color: rgb(20, 10, 64);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.filmTitle:hover{
+    transform: scale(1.04);
+}
+
+  .releaseDate{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .releaseDate:hover{
+    transform: scale(1.04);
+}
+.back-button{
+  margin-top: 10px;
+  background-color: #f748a0;
+  color: #fefcfc;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

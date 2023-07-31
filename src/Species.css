@@ -1,0 +1,69 @@
+.species{
+    color: rgb(247, 248, 249);
+    font-size: 18px;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Films.css */
+/* Films.css */
+.species-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+   
+  }
+  
+  .species-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
+    background-color: rgb(179, 225, 225);
+    transition: transform 0.3s ease-in-out;
+  }
+  .species-item:hover{
+    transform: scale(1.04);
+  }
+  
+  .species-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .species-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .speciesName{
+    color: rgb(20, 10, 64);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.speciesName:hover{
+    transform: scale(1.04);
+}
+
+  .classification{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .classification:hover{
+    transform: scale(1.04);
+}
+.designation{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .designation:hover{
+    transform: scale(1.04);
+}

@@ -1,0 +1,70 @@
+.planets{
+    color: rgb(237, 239, 242);
+    font-size: 18px;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Films.css */
+/* Films.css */
+.planet-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+   
+  }
+  
+  .planet-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
+    background-color: rgb(179, 225, 225);
+    transition: transform 0.3s ease-in-out;
+  }
+  .planet-item:hover{
+    transform: scale(1.04);
+  }
+  
+  .planet-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .planet-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .planetName{
+    color: rgb(20, 10, 64);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.planetName:hover{
+    transform: scale(1.04);
+}
+
+  .diameter{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .diameter:hover{
+    transform: scale(1.04);
+}
+
+.climate{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .climate:hover{
+    transform: scale(1.04);
+}

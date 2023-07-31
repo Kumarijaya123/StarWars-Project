@@ -1,0 +1,62 @@
+.people{
+    color: rgb(248, 250, 252);
+    font-size: 18px;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Films.css */
+/* Films.css */
+.people-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+   
+  }
+  
+  .person-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
+    background-color: rgb(179, 225, 225);
+    transition: transform 0.3s ease-in-out;
+  }
+  .person-item:hover{
+    transform: scale(1.04);
+  }
+  
+  .person-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .person-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .personName{
+    color: rgb(20, 10, 64);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.personName:hover{
+    transform: scale(1.04);
+}
+
+  .personGender{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .personGender:hover{
+    transform: scale(1.04);
+}
+

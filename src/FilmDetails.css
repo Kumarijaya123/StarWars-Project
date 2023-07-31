@@ -1,0 +1,21 @@
+.film-details{
+    color: var(--text-black, #252C32);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 20px; /* 166.667% */
+    flex: 1 0 0;
+    letter-spacing: 0.1px;
+    background-color: rgb(233, 236, 253);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    height: 150px;
+}
+.film-details:hover{
+    transform: scale(1.04);
+    background-color: #bfd6fb;
+}

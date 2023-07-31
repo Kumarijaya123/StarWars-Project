@@ -1,0 +1,70 @@
+.vehicles{
+    color: rgb(244, 247, 249);
+    font-size: 18px;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Films.css */
+/* Films.css */
+.vehicle-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+   
+  }
+  
+  .vehicle-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
+    background-color: rgb(179, 225, 225);
+    transition: transform 0.3s ease-in-out;
+  }
+  .vehicle-item:hover{
+    transform: scale(1.04);
+  }
+  
+  .vehicle-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .vehicle-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .vehicleName{
+    color: rgb(20, 10, 64);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.vehicleName:hover{
+    transform: scale(1.04);
+}
+
+  .model{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .model:hover{
+    transform: scale(1.04);
+}
+
+.manufacturer{
+    color: rgb(10, 10, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+  }
+  .manufacturer:hover{
+    transform: scale(1.04);
+}

@@ -1,5 +1,5 @@
 .films{
-    color: rgb(20, 21, 22);
+    color: rgb(247, 249, 250);
     font-family:sans-serif;
     letter-spacing: 0.5px;
     text-align: left;
@@ -11,7 +11,7 @@
 
 .film-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    
     grid-gap: 20px;
    width: 330px;
    

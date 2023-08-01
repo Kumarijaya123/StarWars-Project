@@ -29,18 +29,13 @@ const Films = () => {
   };
 
   const handleBackButtonClick = () => {
+    setSelectedFilm(null);
     setShowFilmDetails(false);
   };
 
   return (
     <div>
-      
-      {showFilmDetails ? (
-        <div>
-          <button className='back-button'onClick={handleBackButtonClick}>Back to Films</button>
-          {selectedFilm && <FilmDetails film={selectedFilm} />}
-        </div>
-      ) : (
+      {!showFilmDetails && (
         <div>
           <h1 className='films'>Films</h1>
           <div className="film-container">
@@ -59,6 +54,15 @@ const Films = () => {
               </div>
             ))}
           </div>
+        </div>
+      )}
+
+      {showFilmDetails && (
+        <div>
+          <button className='back-button' onClick={handleBackButtonClick}>
+            Back to Films
+          </button>
+          {selectedFilm && <FilmDetails film={selectedFilm} />}
         </div>
       )}
     </div>

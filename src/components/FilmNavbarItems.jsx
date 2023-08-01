@@ -31,7 +31,13 @@ function FilmNavbarItems() {
   )
 }
 */
-function FilmNavbarItems() {
+function FilmNavbarItems({showSidebar}) {
+  const clearParentHTML = () => {
+    const parentDiv = document.querySelector('.parent');
+    if (parentDiv) {
+      parentDiv.innerHTML = '';
+    }
+  };
   const [isFilmsOpen, setFilmsOpen] = useState(false);
   const [isPeopleOpen, setPeopleOpen] = useState(false);
   const [isPlanetsOpen, setPlanetsOpen] = useState(false);
@@ -100,7 +106,11 @@ function FilmNavbarItems() {
         <span className="films-text">Films</span>
         <img src={caretright} alt="Caret Right" className="caret-icon" />
       </button>
-      {isFilmsOpen &&<Films />}
+      {isFilmsOpen &&(
+        <div className="dropdown-content-right">
+          <Films />
+        </div>
+        )}
       <button className="dropdown-btn" onClick={togglePeopleDropdown}>
         <i className="bi bi-people-fill" style={{ color: 'white' }}></i>
         <span className="peoples-text">People</span>

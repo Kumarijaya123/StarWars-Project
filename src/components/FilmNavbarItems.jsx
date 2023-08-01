@@ -31,13 +31,8 @@ function FilmNavbarItems() {
   )
 }
 */
-function FilmNavbarItems({showSidebar}) {
-  const clearParentHTML = () => {
-    const parentDiv = document.querySelector('.parent');
-    if (parentDiv) {
-      parentDiv.innerHTML = '';
-    }
-  };
+function FilmNavbarItems() {
+  
   const [isFilmsOpen, setFilmsOpen] = useState(false);
   const [isPeopleOpen, setPeopleOpen] = useState(false);
   const [isPlanetsOpen, setPlanetsOpen] = useState(false);
